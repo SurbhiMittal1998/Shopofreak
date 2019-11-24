@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shopofreak</title>
+	<link href="img/sicon.png" rel="shortcut icon" type="img/sicon.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+	
+	
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+	
+	<link rel="stylesheet" href="./iconfont.css">
+	<script src="./lib/jquery.goTop.js"></script>
+	<style>
+	.bg
+	{
+		background-color:#000;
+		height:25px;
+		background-size:100%;
+	}
+	
+	.bg1
+	{
+		background-image:url("img/women/header.png");
+		height:600px;
+		background-size:100%;
+	}
+	.bg2
+	{
+		background-color:#000;
+		padding-bottom:10px;
+		background-size:100%;
+	}
+	.bg3
+	{
+		background-image:url("img/women/plus.png");
+		height:256px;
+		background-size:100%;
+		background-repeat:no-repeat;
+	}
+	.bg4
+	{
+		background-image:url("img/women/street.png");
+		height:454px;
+		background-size:100%;
+		background-repeat:no-repeat;
+	}
+	.bg5
+	{
+		background-image:url("img/women/2018.png");
+		height:202px;
+		width:233px;
+		margin-left:42px;
+		background-repeat:no-repeat;
+	}
+	.bg6
+	{
+		background-image:url("img/women/summer.png");
+		height:202px;
+		width:233px;
+		background-repeat:no-repeat;
+	}
+	.bg7
+	{
+		background-image:url("img/women/top.png");
+		height:227px;
+		width:513px;
+		margin-top:24px;
+		background-repeat:no-repeat;
+	}
+	.black-1024
+	{
+		width:1024px;
+		margin:auto;
+	
+	}
+		.white-1024
+	{
+		width:1024px;
+		margin:auto;
+	}
+	.black-nav
+	{
+		color:#fefefe;
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		margin-left:25px;
+	}
+	.black-nav:hover
+	{
+		color:#fefefe;
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		margin-left:25px;
+		text-decoration:none;
+	}
+	.black-nav:focus
+	{
+		color:#fefefe;
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		margin-left:25px;
+		text-decoration:none;
+	}
+	.mg80-top
+	{
+		margin-top:80px;
+	}
+	.mg35-top
+	{
+		margin-top:35px;
+	}
+	.mg50-top
+	{
+		margin-top:50px;
+	}
+	.mg15-top
+	{
+	margin-top:15px;
+	}
+	.no-mg
+	{
+		margin:0px;
+	}
+	.mg10-right
+	{
+		margin-right:10px;
+	}
+	.search_icon
+	{
+		font-size:20px;
+		color:#000;
+		margin-top:10px;
+	}
+	.inp
+	{
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#000;
+		border-top-style:none;
+		border-right-style:none;
+		border-left-style:none;
+		margin-left:18px;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		width:200px;
+	}
+	.inp:hover
+	{
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#000;
+		border-top-style:none;
+		border-right-style:none;
+		border-left-style:none;
+		margin-left:18px;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		width:200px;
+		outline:none;
+	}
+	.inp:focus
+	{
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#000;
+		border-top-style:none;
+		border-right-style:none;
+		border-left-style:none;
+		margin-left:18px;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		width:200px;
+		outline:none;
+	}
+	.mg50-r
+	{
+		margin-right:50px;
+	}
+	.hr_gray
+	{
+		border-bottom-style:solid;
+		border-bottom-width:2px;
+		border-bottom-color:#e1e1e1;
+		padding-bottom:20px;
+	}
+	.nav>li>a
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#000;
+	}
+	.nav>li>a:hover
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#5b5959;
+		background-color:transparent;
+	}
+	.nav>li>a:focus
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#5b5959;
+		background-color:transparent;
+	}
+	.shadow
+	{
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+		height:47px;
+	}
+	.navbar-collapse.collapse{
+		width:700px;
+		margin:auto;
+		display:block;
+	}
+	.txt_white_14
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		color:#fff;
+		text-align:center;
+	}
+	.pad-t-5
+	{
+		padding-top:5px;
+	}
+	.txt_36
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:36px;
+		color:#000;
+		text-align:center;
+		font-weight:bold;
+	}
+	.txt_22
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:22px;
+		color:#000;
+		text-align:center;
+	}
+	.txt_22-pink
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:22px;
+		color:#30b4c3;
+		text-align:center;
+		letter-spacing: 1px;
+	}
+	.txt_18
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:18px;
+		color:#514e4e;
+		text-align:center;
+		line-height:25px;
+	}
+	.txt_20
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:20px;
+		color:#fff;
+		letter-spacing:1px;
+		font-weight:bold;
+	}
+	.txt_14
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		color:#000;
+		letter-spacing:.2px;
+	}
+	.txt_24
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:24px;
+		color:#fff;
+		letter-spacing:1px;
+		font-weight:bold;
+	}
+	.txt_48
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:48px;
+		color:#fff;
+		letter-spacing:1px;
+		font-weight:bold;
+	}
+	.c1::placeholder
+	{ 
+		color:#000;
+		opacity: 1;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;	
+	}
+	.c2::placeholder
+	{ 
+		color:#fff;
+		opacity: 1;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;	
+		
+	}
+	
+	.inp-ftr
+	{
+		width:200px;
+		height:36px;
+		border-bottom:1.5px solid #fff;
+		background-color:transparent;
+		border-left:none;
+		border-top:none;
+		border-right:none;
+		color:#fff;
+		
+	}
+	.inp-ftr:hover
+	{
+		width:200px;
+		height:36px;
+		border-bottom:1.5px solid #fff;
+		background-color:transparent;
+		border-left:none;
+		border-top:none;
+		border-right:none;
+		color:#fff;
+	}
+	.inp-ftr:focus
+	{
+		width:200px;
+		height:36px;
+		border-bottom:1.5px solid #fff;
+		background-color:transparent;
+		border-left:none;
+		border-top:none;
+		border-right:none;
+		color:#fff;
+		outline:none
+	}
+	.inp-btn-ftr
+	{
+		width:150px;
+		height:36px;
+		background-color:#fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		border:none;
+		margin-left:0px;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	.inp-btn-ftr:hover
+	{
+		width:150px;
+		height:36px;
+		border:1.5px solid #fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		border:none;
+		margin-left:0px;
+		outline:none;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	.inp-btn-ftr:focus
+	{
+		width:150px;
+		height:36px;
+		background-color:#fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		border:none;
+		margin-left:0px;
+		outline:none;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	ul
+	{
+	list-style-type: none;
+	padding-left:0px;
+	}
+	.ftr_a
+	{
+	font-size:16px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	}
+	.ftr_a:hover
+	{
+	font-size:16px;
+	color:#dbe2e4;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	text-decoration:none;
+	}
+	.ftr_a:focus
+	{
+	font-size:16px;
+	color:#dbe2e4;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	text-decoration:none;
+	}
+	.pic_border
+	{
+		border:solid 3px;
+	}
+	.inp_btn 
+	{
+		width: 230px;
+		height: 45px;
+		border: 1.5px solid #000;
+		padding-left: 10px;
+		border-radius: 25px;
+		border-style: solid;
+		background-color: #000;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+	.inp_btn:focus
+	{
+		width: 230px;
+		height: 45px;
+		border: 1.5px solid #5c5959;
+		padding-left: 10px;
+		border-radius: 25px;
+		border-style: solid;
+		background-color: #5c5959;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+		letter-spacing: 1px;
+		outline:none;
+	}
+.inp_btn:hover
+	{
+		width: 230px;
+		height: 45px;
+		border: 1.5px solid #5c5959;
+		padding-left: 10px;
+		border-radius: 25px;
+		border-style: solid;
+		background-color: #5c5959;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+		letter-spacing: 1px;
+		outline:none;
+	}
+	.super_a:hover
+	{
+	text-decoration:none;
+	}
+	.social-icon
+	{
+	font-size:35px;
+	color:#fff;
+	transform: scale(1,1);
+	}
+	.social-icon:hover
+	{
+	font-size:35px;
+	color:#fff;
+	transform: scale(1.2, 1.2);
+	transition: all 0.2s ease;
+	}
+	.txt_13
+	{
+	font-size:13px;
+	color:#edf1f6; 
+	font-family:'Roboto', sans-serif;
+	text-align:center
+	}
+	.txt_13:hover
+	{
+	font-size:13px;
+	color:#edf1f6; 
+	font-family:'Roboto', sans-serif;
+	text-align:center
+	}
+	.inp_btn1
+	{
+		width: 150px;
+		height: 45px;
+		border: 1.5px solid #000;
+		padding-left: 10px;
+		border-radius: 5px;
+		border-style: solid;
+		background-color: #000;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+		letter-spacing: 1px;
+	}
+	.inp_btn1:focus
+	{
+		width: 150px;
+		height: 45px;
+		border: 1.5px solid #000;
+		padding-left: 10px;
+		border-radius: 5px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #fff;
+		font-weight: bold;
+		letter-spacing: 1px;
+		outline:none
+	}
+	.ir
+	{
+		width:100%;
+		height:600px;
+	}
+	.no-pd
+	{
+		padding:0px;
+	}
+	.carousel-control 
+	{
+		width:5%;
+	}
+	a:hover
+	{
+		text-decoration:none;
+	}
+	.txt_16
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#000;
+		text-align:center;
+		margin-bottom:0px;
+	}
+	
+	
+	
+	.pic_border1
+	{
+		border:solid 2px;
+	}
+	.txt_14-xs
+	{
+		font-size:14px;
+		color:#000; 
+		font-family:'Roboto', sans-serif;
+		text-align:center;
+	}
+	.txt_36-xs
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:25px;
+		color:#000;
+		text-align:center;
+		font-weight:bold;
+	}
+	.bg2-xs
+	{
+		background-color:#000;
+		height:390px;
+		background-size:100%;
+		padding:0px;
+	}
+	a:hover
+	{
+	text-decoration:none;
+	}
+	a:focus
+	{
+	text-decoration:none;
+	}
+	
+	
+	.side-menu-wrapper { /* style menu wrapper */
+    overflow: hidden;
+    background: rgba(0,0,0,.95);
+    padding: 40px 0 0 40px;
+    position: fixed; /* Fixed position */
+    top: 0;
+    right: -290px; /* Sidebar initial position. "right" for right positioned menu */
+    height: 100%;
+    z-index: 2;
+    transition: 0.5s; /* CSS transition speed */
+    width: 250px;
+   font-family: 'Roboto', sans-serif;
+	font-size:16px;
+}
+.side-menu-wrapper > ul{ /* css ul list style */
+    list-style:none;
+    padding:0;
+    margin:0;
+    overflow-y: auto; /* enable scroll for menu items */
+    width:500px; /* this width will hide scroll bar */
+    height:95%;
+}
+.side-menu-wrapper > ul > li > a { /* links */
+    display: block;
+    border-bottom: 1px solid #131313;
+    padding: 6px 4px 6px 4px;
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.side-menu-wrapper > a.menu-close { /* close button */
+    padding: 8px 0 4px 23px;
+    color: #fff;
+    display: block;
+    margin: -30px 0 -10px -20px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.side-menu-overlay { /* overlay */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+figure {
+	width: 225px;
+	height: 340px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.lin
+{
+	background-color:#000;
+	height:3px;
+	width:70px;
+}
+#go-top {
+      display: none;
+      font-size: 30px;
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      border: 2px solid #333;
+      border-radius: 5px;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      cursor: pointer;
+    }
+	</style>
+  </head>
+  <body>
+    <div class="container-fluid bg hidden-xs">
+		<div class="container">
+			<span class="pull-right">
+			<a href="donation.html" class="black-nav">DONATION</a>
+			<a href="sell.html" class="black-nav">SELL</a>
+			<a href="https://www.fedex.com/apps/fedextrack/?action=track&cntry_code=in" class="black-nav">TRACK ORDER</a>
+			<a href="customer.html" class="black-nav">CUSTOMER SERVICE</a>
+			</span>
+		</div>
+	</div>
+	<div class="container-fluid hr_gray hidden-xs">
+		<div class="container mg35-top">
+			<div class="col-md-4 no-mg"><i class="fas fa-search search_icon"></i>
+				<input type="text" placeholder="Search product" class="inp c1">
+			</div>
+			<div class="col-md-4 no-mg">
+				<a href="index.html"><img src="img/logo.png" class="center-block"></a>
+			</div>
+			<div class="col-md-4 no-mg">
+				<span class="pull-right">
+				<a href="sign in.html"><i class="fas fa-user search_icon pull mg50-r"></i></a>
+				<a href="payment.html"><i class="fas fa-shopping-bag search_icon"></i></a>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid shadow no-mg hidden-xs">
+		<div class="container">
+					<nav class="navbar">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar navbar-inverse"></span>
+					<span class="icon-bar navbar-inverse"></span>
+					<span class="icon-bar navbar-inverse"></span> 
+				  </button>
+				 
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">							
+					<li><a href="man.html">MEN</a></li>
+					<li><a href="woman.html">WOMEN</a></li>
+					<li><a href="accessories.html">ACCESSORIES</a></li> 
+					<li><a href="designer.html">DESIGNER</a></li> 
+					<li><a href="design.html">DESIGN YOURSELF</a></li> 
+					<li><a href="blog.html">BLOG</a></li> 
+				  </ul>
+				</div>
+				</nav>
+			</div>
+	</div>
+	<!--------------------------------------mobile--------------------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm" style="margin-top:0px; box-shadow: 1px 2px 4px rgba(0, 0, 0, .3); height:40px">
+		<div class="col-xs-2" style="margin-top:5px;">
+		<a href="#" class="slide-menu-open"><i class="fas fa-bars" style="color:#000; font-size:20px; margin-top:2px;"></i></a>
+
+		<div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
+		<div class="side-menu-wrapper" style="z-index:999;">
+		<a href="#" class="menu-close">&times;</a>
+		<ul>
+			<li><a href="man.html" >MEN</a></li>
+			<li><a href="woman.html">WOMEN</a></li>
+			<li><a href="accessories.html" >ACCESSORIES</a></li> 
+			<li><a href="designer.html">DESIGNER</a></li> 
+			<li><a href="design.html" >DESIGN YOURSELF</a></li> 
+			<li><a href="blog.html">BLOG</a></li> 
+			<li><a href="design.html" >DONATION</a></li> 
+			<li><a href="blog.html">SELL</a></li> 
+			<li><a href="customer.html">CUSTOMER SERVICE</a></li> 
+		</ul>
+	</div>
+	<script>
+		var slidebar_width  = 290; //slidebar width + padding size
+		var slide_bar       = $(".side-menu-wrapper"); //slidebar
+		var slide_open_btn  = $(".slide-menu-open"); //slidebar close btn
+		var slide_close_btn = $(".menu-close"); //slidebar close btn
+		var overlay         = $(".side-menu-overlay"); //slidebar close btn
+
+		slide_open_btn.click(function(e){
+			e.preventDefault();
+			slide_bar.css( {"left": "0px"}); //change to "right" for right positioned menu
+			overlay.css({"opacity":".2", "width":"100%"});
+		});
+		slide_close_btn.click(function(e){
+			e.preventDefault();
+			slide_bar.css({"left": "-"+ slidebar_width + "px"}); //change to "right" for right positioned menu
+			overlay.css({"opacity":"0", "width":"0"});  
+		});
+	</script>
+	</div>
+	<div class="col-xs-6" style="margin-top:5px;">
+		<a href="index.html"><img src="img/logo.png" class="img-responsive" style="width:80%; margin-top:2px;"></a>
+	</div>
+	<div class="col-xs-4" style="margin-top:5px;">
+	
+		<a href="sign in.html" ><i class="fas fa-user search_icon pull-left" style="margin-top:3px; margin-left:3px;"></i></a>
+		<a href="payment.html"><i class="fas fa-shopping-bag search_icon pull-right" style="margin-top:3px;"></i></a>
+	</div>
+	</div>
+	<!---------------------------------------desktop--------------------------------------->
+	<div class="container-fluid no-pd">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators hidden-xs">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <a href="woman-1.html"><img src="img/women/header.png" alt="..." class="ir"></a>
+				  <div class="carousel-caption">
+				  </div>
+				</div>
+				<div class="item">
+				  <a href="woman-1.html"><img src="img/women/header1.png" alt="..." class="ir"></a>
+				  <div class="carousel-caption">
+				  </div>
+				</div>
+				<div class="item">
+				  <a href="woman-1.html"><img src="img/main page/header1.png" alt="..." class="ir"></a>
+				  <div class="carousel-caption">
+				  </div>
+				</div>
+			 </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+	</div>
+	<div class="container-fluid bg hidden-xs">
+		<div class="container"><h5 class="txt_white_14 no-mg pad-t-5" style="letter-spacing:2px;">FREE SHIPPING ON ORDER ABOVE &#8377; 2500</h5></div>
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+	
+	<div class="container-fluid bg hidden-lg hidden-md hidden-sm">
+		<h5 class="txt_13 no-mg pad-t-5" style="letter-spacing:2px;">FREE SHIPPING ON ORDER ABOVE &#8377; 2500</h5>
+	</div>
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	<div class="container-fluid item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36 mg80-top hidden-xs">TOP BRANDS</h3>
+			<h3 class="txt_36-xs mg35-top hidden-lg hidden-md hidden-sm">TOP BRANDS</h3>
+			<hr class="lin">
+			<div class="clearout"></div>
+       
+
+   
+		<ul id="flexiselDemo3">
+			<li><a href="woman-1.html" ><img src="img/main page/brand1.png"  ></a></li>
+			<li><a href="woman-1.html"><img src="img/main page/brand2.png" /></a></li>
+			<li><a href="woman-1.html"><img src="img/main page/brand3.png" /></a></li>
+			<li><a href="woman-1.html"><img src="img/main page/brand4.png" /></a></li>
+			<li><a href="woman-1.html"><img src="img/main page/brand5.png" /></a></li>	
+			<li><a href="woman-1.html"><img src="img/main page/brand1.png" /></a></li>
+			<li><a href="woman-1.html"><img src="img/main page/brand3.png" /></a></li>	
+		</ul>   
+			<div class="clearout"></div>
+
+
+		<script type="text/javascript">
+
+		$(window).load(function() {
+			$("#flexiselDemo1").flexisel();
+
+			$("#flexiselDemo2").flexisel({
+				visibleItems: 4,
+				itemsToScroll: 3,
+				animationSpeed: 200,
+				infinite: true,
+				navigationTargetSelector: null,
+				autoPlay: {
+					enable: false,
+					interval: 5000,
+					pauseOnHover: true
+				},
+				responsiveBreakpoints: { 
+					portrait: { 
+						changePoint:480,
+						visibleItems: 1,
+						itemsToScroll: 1
+					}, 
+					landscape: { 
+						changePoint:640,
+						visibleItems: 2,
+						itemsToScroll: 2
+					},
+					tablet: { 
+						changePoint:768,
+						visibleItems: 3,
+						itemsToScroll: 3
+					}
+				},
+				loaded: function(object) {
+					console.log('Slider loaded...');
+				},
+				before: function(object){
+					console.log('Before transition...');
+				},
+				after: function(object) {
+					console.log('After transition...');
+				},
+				resize: function(object){
+					console.log('After resize...');
+				}
+			});
+			
+			$("#flexiselDemo3").flexisel({
+				visibleItems: 5,
+				itemsToScroll: 1,         
+				autoPlay: {
+					enable: true,
+					interval: 5000,
+					pauseOnHover: true
+				}        
+			});
+			
+			$("#flexiselDemo4").flexisel({
+				infinite: false     
+			});    
+			
+		});
+		</script>	
+		</div>
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+	
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	
+	<div class="container-fluid mg80-top hidden-xs item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36">CATEGORIES</h3>
+			<hr class="lin">
+			<p class="txt_18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br>
+			industry's standard dummy text</p>
+			<div class="row mg50-top">
+				<div class="col-md-6">
+					<a href="woman-1.html"><img src="img/women/ethnic.png" class="pic_border pull-right img-responsive" style="border-color:#e07850">
+					
+					</a>
+					<h3 class="text-center txt_18 hidden-xs hidden-sm hidden-md" style="margin-top:407px;" >INDIAN WEAR</h3>
+					<h3 class="text-center txt_18 hidden-xs hidden-lg" style="margin-top:367px;">CASUAL WEAR</h3>
+				</div>
+				<div class="col-md-6">
+					<a href="woman-1.html"><img src="img/women/western.png" class="pic_border img-responsive" style="border-color:#e0524f"></a>
+					<h3 class="text-center txt_18 no-mg hidden-xs hidden-sm hidden-md no-mg" style="margin-top:15px;">WESTERN WEAR</h3>
+					<h3 class="text-center txt_18 hidden-xs hidden-lg no-mg" style="margin-top:15px;">FORMAL WEAR</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------MOBILE----------------------------------->
+	
+	<div class="container-fluid hidden-xl hidden-lg hidden-md hidden-sm item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36-xs">CATEGORIES</h3>
+			<hr class="lin">
+			<p class="txt_16" style="color:#514e4e;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="row ">
+				<div class="col-md-6">
+					<a href="woman-1.html"><img src="img/women/ethnic.png" class="pic_border pull-right img-responsive" style="border-color:#e07850">
+					
+					</a>
+					<h3 class="text-center txt_18">INDIAN WEAR</h3>
+				</div>
+				<div class="col-md-6">
+					<a href="woman-1.html"><img src="img/women/western.png" class="pic_border img-responsive" style="border-color:#e0524f"></a>
+					<h3 class="text-center txt_18 no-mg">WESTERN WEAR</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	
+	
+	<div class="container-fluid hidden-xs item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36 mg80-top">NEW ARRIVALS</h3>
+			<hr class="lin">
+			<p class="txt_18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br>
+			industry's standard dummy text</p>
+			<div class="row mg80-top">
+					<div class="col-md-3 hover01" >
+					<figure class="pic_border center-block" style="border-color:#e07850;">
+					<a href="woman-1.html"><img src="img/main page/1.png" class="center-block"/></a>
+					</figure>
+			
+			
+			
+					<h6 class="txt_18 text-center" style="margin-bottom:0px;">Floral Print Slip Dress</h6>
+					<p class="txt_16 text-center nomg-b">&#8377; 780.00 &nbsp;<span class="txt_141">&#8377;<s>1425.00</s></span></p>
+					<div style="text-align:center;">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+				</div>
+				
+				<div class="col-md-3 hover01" >
+					<figure class="pic_border center-block" style="border-color:#0072bc;">
+					<a href="woman-1.html"><img src="img/main page/2.png" class="center-block"/></a>
+					</figure>
+				
+					<h6 class="txt_18 text-center" style="margin-bottom:0px;">Off Shoulder Trim Dress</h6>
+					<p class="txt_16 text-center nomg-b">&#8377; 1025.00 &nbsp;<span class="txt_141">&#8377;<s>2035.00</s></span></p>
+					<div style="text-align:center;">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</div>
+				
+				</div>
+				
+				<div class="col-md-3 hover01" >
+					<figure class="pic_border center-block" style="border-color:#9e0039;">
+					<a href="woman-1.html"><img src="img/main page/3.png" class="center-block"/></a>
+					</figure>
+				
+				
+					
+					<h6 class="txt_18 text-center" style="margin-bottom:0px;">Raglan Sweatshirt Dress</h6>
+					<p class="txt_16 text-center nomg-b">&#8377; 1568.00  &nbsp;<span class="txt_141">&#8377;<s>1965.00</s></span></p>
+					<div style="text-align:center;">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half"></i>
+					</div>
+				</div>
+				
+				
+				<div class="col-md-3 hover01" >
+					<figure class="pic_border center-block" style="border-color:#6ff3b0;">
+					<a href="woman-1.html"><img src="img/main page/4.png" class="center-block"/></a>
+					</figure>
+				
+				
+				
+				
+				
+					<h6 class="txt_18 text-center" style="margin-bottom:0px;">Ditsy Print Smock Dress</h6>
+					<p class="txt_16 text-center nomg-b">&#8377; 780.00 &nbsp;<span class="txt_141">&#8377;<s>1425.00</s></span></p>
+					<div style="text-align:center;">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------MOBILE----------------------------------->
+	
+		<div class="container-fluid hidden-lg hidden-md hidden-sm item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36-xs mg35-top">NEW ARRIVALS</h3>
+			<hr class="lin">
+			<p class="txt_16" style="color:#514e4e;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			
+				<div class="row no-pd mg35-top">
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/1-res.png" class="pic_border1" style="border-color:#e07850">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 780.00 &nbsp;<span class="txt_141">&#8377;<s>1425.00</s></span></p>
+
+					</div >
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/2-res.png" class="pic_border1" style="border-color:#0072bc">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 1025.00 &nbsp;<span class="txt_141">&#8377;<s>2035.00</s></span></p>
+					</div>
+				</div>
+				
+				<div class="row no-pd">
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/3-res.png" class="pic_border1" style="border-color:#9e0039">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 780.00 &nbsp;<span class="txt_141">&#8377;<s>1425.00</s></span></p>
+
+					</div >
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/4-res.png" class="pic_border1" style="border-color:#00aeef">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 1025.00 &nbsp;<span class="txt_141">&#8377;<s>2035.00</s></span></p>
+					</div>
+				</div>
+				
+				<div class="row no-pd">
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/2-res.png" class="pic_border1" style="border-color:#0072bc">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 1025.00 &nbsp;<span class="txt_141">&#8377;<s>2035.00</s></span></p>
+					</div>
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/1-res.png" class="pic_border1" style="border-color:#e07850">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 780.00 &nbsp;<span class="txt_141">&#8377;<s>1425.00</s></span></p>
+					</div >
+				</div>
+				<div class="row no-pd">
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/3-res.png" class="pic_border1" style="border-color:#9e0039">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 780.00 &nbsp;<span class="txt_141">&#8377;<s>1425.00</s></span></p>
+
+					</div >
+					<div class="col-xs-6">
+						<a href="woman-1.html">
+							<img src="img/main page/4-res.png" class="pic_border1" style="border-color:#00aeef">
+						</a>
+						<p class="txt_14-xs text-center no-mg">&#8377; 1025.00 &nbsp;<span class="txt_141">&#8377;<s>2035.00</s></span></p>
+					</div>
+				</div>
+				
+		</div>
+	</div>
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	<div class="container-fluid mg50-top hidden-xs">
+		<div class="container">
+			<a href="woman-1.html"><input type="button" value="VIEW ALL" class="inp_btn center-block"><a>
+		</div>
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+	
+	<div class="container-fluid mg35-top hidden-lg hidden-md hidden-sm">
+		<div class="container">
+			<a href="woman-1.html"><input type="button" value="VIEW ALL" class="inp_btn center-block"></a>
+		</div>
+	</div>
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	
+	<div class="container-fluid bg3 mg80-top hidden-xs hidden-sm hidden-md item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36 mg50-top">WEAR YOUR CURVE PROUDLY</h3>
+			<p class="txt_22">Online Shop For Plus Size Stylish Apprals</p>
+			<a href="woman-1.html"><input type="button" value="SHOP NOW" class="inp_btn1 center-block"></a>
+		</div>
+	</div>
+	
+	<!-------------------------------------1024----------------------------------->
+	<div class="container-fluid mg35-top hidden-lg hidden-xs no-pd mg80-top item" data-aos="fade-up">
+		<a href="woman-1.html"><img src="img/women/md5.png" class="img-responsive mg35-top" style="width:100%;"></a>
+	</div>
+	<!-------------------------------------MOBILE----------------------------------->
+	
+	<div class="container-fluid mg35-top hidden-lg hidden-md hidden-sm no-pd item" data-aos="fade-up">
+		<a href="woman-1.html"><img src="img/women/plus-res.png" class="img-responsive"></a>
+	</div>
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	<div class="container-fluid mg80-top hidden-xs item" data-aos="fade-up">
+		<div class="container no-pd">
+		<h3 class="txt_36">DISCOVER NOW</h3>
+		<hr class="lin">
+			<p class="txt_18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br>
+			industry's standard dummy text </p>
+			<a href="woman-1.html"><img src="img/main page/dis1.png" style="width:100%;"class="mg35-top"></a>
+		</div>
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+	
+	<div class="container-fluid mg35-top hidden-xl hidden-lg hidden-md hidden-sm item" data-aos="fade-up">
+		<div class="container no-pd">
+		<h3 class="txt_36-xs">DISCOVER NOW</h3>
+		<hr class="lin">
+			<p class="txt_16" style="color:#514e4e;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<a href="woman-1.html"><img src="img/main page/dis1.png" style="width:100%;"></a>
+		</div>
+	</div>
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	
+	<div class="container-fluid hidden-xs hidden-sm hidden-md item" data-aos="fade-up">
+		<div class="container no-pd">
+			<h3 class="txt_36 mg80-top">SUPER DEAL ONLY TODAY</h3>
+			<hr class="lin">
+			<p class="txt_18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+			<div class="row mg50-top">
+				<div class="col-md-6">
+					<a href="woman-1.html" class="super_a">
+						<div class="bg4">
+							<h5 class="txt_48 no-mg" style="padding:40px 0px 0px 40px;">STREET<br>
+							<span style="font-weight:normal;">COLLECTION</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 ">
+					<a href="woman-1.html">
+						<div class="bg5 pull-left">
+							<h4 class="txt_24" style="padding:155px 0px 0px 100px;">2018</h4>
+						</div>
+					</a>
+					<a href="woman-1.html">
+						<div class="bg6 pull-right">
+							<h4 class="txt_20" style="padding:30px 0px 0px 20px;">WOMEN<br><span style="font-weight:normal;">SUMMER</span></h4>
+							<h5 class="txt_24" style="font-size:30px; padding:30px 0px 0px 20px;">60%<br>
+							OFF</h5>
+						</div>
+					</a>
+					<a href="woman-1.html">
+						<div class="bg7 pull-right">
+							<h4 class="txt_24" style="padding:30px 0px 0px 20px;">SALE OFF<br>
+							<span class="txt_30">TOPS & T-SHIRTS</span></h4>
+							<h5 class="txt_20" style="padding:30px 0px 0px 20px; font-weight:normal;">COLLECTION<br><b>2018</b></h5>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!------------------------------------1024---------------------------------->
+	
+	<div class="container-fluid hidden-xs hidden-lg item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36 mg80-top">SUPER DEAL ONLY TODAY</h3>
+			<hr class="lin">
+			<p class="txt_18">Discover the newest way to create amazing apparels by your own creativity.<br>
+			Select the outfit as per your design. </p>
+			<div class="row mg50-top">
+				<div class="col-md-6">
+					<a href="woman-1.html" class="super_a">
+						<img src="img/women/md1.png"  >
+					</a>
+				</div>
+				<div class="col-md-6 ">
+					<a href="woman-1.html">
+						<img src="img/women/md2.png" class="pull-left" style="width:48%;" >
+					</a>
+					<a href="woman-1.html">
+						<img src="img/women/md3.png" style="width:48%;" class="pull-right">
+					</a>
+					<a href="woman-1.html">
+						
+						<img src="img/women/md4.png"  class="pull-right" style="width:100%; margin-top:27px;">
+						
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------MOBILE----------------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm no-pd item" data-aos="fade-up">
+		<div class="container">
+			<h3 class="txt_36-xs mg35-top">SUPER DEAL ONLY TODAY</h3>
+			<hr class="lin">
+			<p class="txt_16" style="color:#514e4e;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		
+				<a href="woman-1.html">
+					<img src="img/women/1-res.png" class="pic_border" style="border-color:#000; margin-top:15px;">
+				</a>
+				<a href="woman-1.html" >
+						<img src="img/women/2-res.png" class="pic_border mg15-top" style="border-color:#000;">
+				</a>
+				<a href="woman-1.html">
+						<img src="img/women/4-res.png" class="pic_border mg15-top" style="border-color:#000;">
+				</a>
+				<a href="woman-1.html">
+						<img src="img/women/3-res.png" class="pic_border mg15-top" style="border-color:#000;">
+				</a>
+			
+		</div>
+	</div>
+	
+	
+	<!-------------------------------------DESKTOP----------------------------------->
+	
+	<div class="container-fluid mg80-top hidden-xs item" data-aos="fade-up">
+		<div class="container no-pd">
+		<p class="txt_18" style="text-align:justify;">Shopofreak’s vision is to create India’s most impactful digital commerce ecosystem that creates life-changing experiences for buyers and sellers. In May 2018, Surbhi Mittal, started Shopofreak.com - India’s largest online marketplace, with the widest assortment of 30 million+ products across 800+ diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 3,00,000 sellers, Shopofreak is the shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Shopofreak has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others.
+		<br><br>
+		In its endeavour to make online business easy, Shopofreak has pioneered with a host of industry-first initiatives to help its sellers grow and prosper. Shopofreak provides expert assistance through its Advisors who help sellers manage their online business. Sellers also get free training & support and all the information they need for carrying out their business. Shopofreak has also partnered with leading banks and runs a programme called Capital Assist that helps sellers fund their growth by getting unsecured loans at low interest for their working capital requirements. Shopofreak also provides sellers with free inventory storage and faster, hassle free deliveries through a service called Shopofreak Plus. Shopofreak also helps sellers get in touch with professionals and experts for their various requirements such as Onboarding, Cataloguing, Photography, Business Consulting, etc.
+		</p>
+		</div>
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+
+	<div class="container-fluid mg35-top hidden-xl hidden-lg hidden-md hidden-sm item" data-aos="fade-up">
+		<div class="container no-pd">
+		<p class="txt_16" style="text-align:justify; color:#514e4e;">Shopofreak’s vision is to create India’s most impactful digital commerce ecosystem that creates life-changing experiences for buyers and sellers. In May 2018, Surbhi Mittal, started Shopofreak.com - India’s largest online marketplace, with the widest assortment of 30 million+ products across 800+ diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 3,00,000 sellers, Shopofreak is the shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Shopofreak has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others.
+		
+		</p>
+		</div>
+	</div>
+	<!-------------------------------------DESKTOP----------------------------------->
+	
+	<div class="container-fluid bg2 mg80-top hidden-xs">
+		<div class="container">
+			<div class="row mg80-top hidden-xs hidden-sm hidden-md">
+				<div class="col-md-8"><a href="index.html"><img src="img/footerlogo.png"></a></div>
+				<div class="col-md-4">
+					<input type="text" placeholder="EMAIL" class="inp-ftr c2" style="color:#fff;">
+					<input type="button" value="SUBSCRIBE" class="inp-btn-ftr">
+				</div>
+			</div>
+			<div class="row mg80-top hidden-xs hidden-lg ">
+				<div class="col-md-7"><a href="index.html"><img src="img/footerlogo.png"></a></div>
+				<div class="col-md-5">
+					<input type="text" placeholder="EMAIL" class="inp-ftr c2" style="color:#fff;">
+					<input type="button" value="SUBSCRIBE" class="inp-btn-ftr">
+				</div>
+			</div>
+		</div>
+		<div class="container mg80-top">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<a href="#" class="ftr_a" style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>INFORMATION</li></a>
+						<a href="#" class="ftr_a"><li class="mg15-top">About Us</li></a>
+						<a href="#" class="ftr_a"><li>Delivery Information</li></a>
+						<a href="#" class="ftr_a"><li>Privacy Policy</li></a>
+						<a href="#" class="ftr_a"><li>Terms & Conditions</li></a>
+						<a href="#" class="ftr_a"><li>Contact Us</li></a>
+						<a href="#" class="ftr_a"><li>Returns</li></a>
+						
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<a href="#" class="ftr_a " style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>EXTRAS</li></a>
+						<a href="#" class="ftr_a "><li class="mg15-top">Brand</li></a>
+						<a href="#" class="ftr_a"><li>Gift Vouchers</li></a>
+						<a href="#" class="ftr_a"><li>Specials</li></a>
+						<a href="#" class="ftr_a"><li>My Account</li></a>
+						<a href="#" class="ftr_a"><li>Order History</li></a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<a href="#" class="ftr_a " style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>CUSTOMER SERVICE</li></a>
+						<a href="#" class="ftr_a "><li class="mg15-top">Contact Us</li></a>
+						<a href="#" class="ftr_a "><li>Return</li></a>
+						<a href="#" class="ftr_a "><li>Site Map</li></a>
+						<a href="#" class="ftr_a "><li>Wish List</li></a>
+						<a href="#" class="ftr_a "><li>Newsletter</li></a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="pull-right">
+						<a href="#" class="ftr_a " style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>SHOPOFREAK BUSINESS</li></a>
+						<a href="#" class="ftr_a "><li class="mg15-top">Online Shopping</li></a>
+						<a href="#" class="ftr_a "><li>Sell on Shopofreak</li></a>
+						<a href="#" class="ftr_a "><li>Advertise</li></a>
+						<a href="#" class="ftr_a "><li>Media Enquiries</li></a>
+						<a href="#" class="ftr_a "><li>Be an Affiliate</li></a>
+						<a href="#" class="ftr_a "><li>Site Map</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="row mg35-top">
+				<div class="col-md-6">
+					<p class="txt_14" style="color:#fff;">FIND US ON</p>
+					<a href="#"><i class="fab fa-facebook social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-twitter-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-pinterest-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-snapchat-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-tumblr-square social-icon "></i></i></a>
+				
+				</div>
+				
+				<div class="col-md-6">
+					<span class="pull-right" style="margin-right:100px;">
+					<p class="txt_14" style="color:#fff;">APP</p>
+					<a href="#"><i class="fab fa-apple social-icon" style="margin-right:20px;"></i></a>
+					<a href="#"><i class="fab fa-android social-icon"></i></a>
+					</span>
+				</div>
+			</div>
+			<h3 class="text-center mg35-top txt_13">&copy; 2018, Shopofreak.com Inc. All Right Reserved</h3>
+			<h3 class="txt_13" style="margin-top:10px;"><a href="#" class="txt_13">Privacy & Security Policy</a> /
+			<a href="#" class="txt_13">Term & Conditions</a> /
+			<a href="#" class="txt_13">Copyright Notice</a></h3>
+		</div>
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm bg2-xs mg35-top">
+		<a href="index.html"><img src="img/footerlogo.png" class="img-responsive center-block mg15-top"></a>
+		<div class="mg35-top">
+			<p class="txt_14 text-center" style="color:#fff;">DOWNLOAD OUR APP</p>
+			<p class="text-center">
+			<a href="#"><i class="fab fa-apple social-icon" style="margin-right:20px;"></i></a>
+			<a href="#"><i class="fab fa-android social-icon"></i></a>
+			</p>
+		</div>
+		<div class="mg35-top">
+			<p class="txt_14 text-center" style="color:#fff;">FIND US ON</p>
+			<p class="text-center">
+			<a href="#"><i class="fab fa-facebook social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-twitter-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-pinterest-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-snapchat-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-tumblr-square social-icon "></i></a>
+			</p>
+		</div>		
+		<h3 class="text-center txt_13" style="color:#fff; line-height:18px; margin-bottom:0px;">&copy; 2018, Shopofreak.com Inc. All Right Reserved<br>Design & developed by Surbhi Mittal</h3>
+		<h3 class="txt_13 text-center" style="color:#fff; line-height:23px; margin-bottom:0px; margin-top:10px;">
+			<a href="#" class="txt_13 mg10-right" style="color:#fff;">Privacy & Security Policy</a>
+			<a href="#" class="txt_13 mg10-right" style="color:#fff;">Term & Conditions</a><br>
+			<a href="#" class="txt_13" style="color:#fff;">Copyright Notice</a>
+		</h3>
+	</div>
+	
+	<!-- -- go to top -- -->
+	<div id="go-top" class="iconfont icon-cc-top hidden-xs"></div>
+	
+	<script>
+  $(function () {
+    $('#go-top').goTop({
+      scrollTop: 100,
+      scrollSpeed: 1000,
+      fadeInSpeed: 1000,
+      fadeOutSpeed: 500
+    })
+  })
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>

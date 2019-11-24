@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Shopofreak</title>
+	<link href="img/sicon.png" rel="shortcut icon" type="img/sicon.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="./iconfont.css">
+	<script src="./lib/jquery.goTop.js"></script>
+    
+	<style>
+	.bg
+	{
+		background-color:#000;
+		height:25px;
+		background-size:100%;
+	}
+	
+	.bg1
+	{
+		
+		height:600px;
+		background-size:100%;
+	}
+	.bg2
+	{
+		background-color:#000;
+		padding-bottom:10px;
+		background-size:100%;
+	}
+	.black-1024
+	{
+		width:1024px;
+		margin:auto;
+	
+	}
+		.white-1024
+	{
+		width:1024px;
+		margin:auto;
+	}
+	.black-nav
+	{
+		color:#fefefe;
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		margin-left:25px;
+	}
+	.black-nav:hover
+	{
+		color:#fefefe;
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		margin-left:25px;
+		text-decoration:none;
+	}
+	.black-nav:focus
+	{
+		color:#fefefe;
+		font-size:12px;
+		font-family: 'Roboto', sans-serif;
+		margin-left:25px;
+		text-decoration:none;
+	}
+	.mg120-top
+	{
+		margin-top:120px;
+	}
+	.mg80-top
+	{
+		margin-top:80px;
+	}
+	.mg35-top
+	{
+		margin-top:35px;
+	}
+	.mg50-top
+	{
+		margin-top:50px;
+	}
+	.mg15-top
+	{
+	margin-top:15px;
+	}
+	.no-mg
+	{
+		margin:0px;
+	}
+	.mg10-right
+	{
+		margin-right:10px;
+	}
+	.search_icon
+	{
+		font-size:20px;
+		color:#000;
+		margin-top:10px;
+	}
+	.inp
+	{
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#000;
+		border-top-style:none;
+		border-right-style:none;
+		border-left-style:none;
+		margin-left:18px;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		width:200px;
+	}
+	.inp:hover
+	{
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#000;
+		border-top-style:none;
+		border-right-style:none;
+		border-left-style:none;
+		margin-left:18px;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		width:200px;
+		outline:none;
+	}
+	.inp:focus
+	{
+		border-bottom-style:solid;
+		border-bottom-width:1px;
+		border-bottom-color:#000;
+		border-top-style:none;
+		border-right-style:none;
+		border-left-style:none;
+		margin-left:18px;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		width:200px;
+		outline:none;
+	}
+	.mg50-r
+	{
+		margin-right:50px;
+	}
+	.hr_gray
+	{
+		border-bottom-style:solid;
+		border-bottom-width:2px;
+		border-bottom-color:#e1e1e1;
+		padding-bottom:20px;
+	}
+	.nav>li>a
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#000;
+	}
+	.nav>li>a:hover
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#5b5959;
+		background-color:transparent;
+	}
+	.nav>li>a:focus
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#5b5959;
+		background-color:transparent;
+	}
+	.shadow
+	{
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+		height:47px;
+	}
+	.shadow_box-680
+	{
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+		height:680px;
+		border-radius:10px;
+	}
+	.navbar-collapse.collapse{
+		width:700px;
+		margin:auto;
+		display:block;
+	}
+	.txt_white_14
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		color:#fff;
+		text-align:center;
+	}
+	.pad-t-5
+	{
+		padding-top:5px;
+	}
+	.txt_36
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:36px;
+		color:#000;
+		text-align:center;
+		font-weight:bold;
+	}
+	.txt_22
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:22px;
+		color:#000;
+		text-align:center;
+	}
+	.txt_22-pink
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:22px;
+		color:#30b4c3;
+		text-align:center;
+		letter-spacing: 1px;
+	}
+	.txt_18
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:18px;
+		color:#514e4e;
+		text-align:center;
+		line-height:25px;
+	}
+	.txt_14
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		color:#000;
+		letter-spacing:.2px;
+	}
+	.circle
+	{
+		height:230px;
+		width:230px;
+		border:2px solid #e1e1e1;
+		border-radius:100%;
+		background-color:#e1e1e1;
+		transform: scale(1, 1);
+		transition: all 0.4s ease;
+	}
+	.circle:hover
+	{
+		height:230px;
+		width:230px;
+		border:2px solid #e1e1e1;
+		border-radius:100%;
+		background-color:transparent;
+		transform: scale(1.1, 1.1);
+		transition: all 0.6s ease;
+		box-shadow: 4px 4px 4px rgba(0, 0, 0, .1);
+	}
+	.circle1
+	{
+		height:200px;
+		width:200px;
+		border:2px solid #7accc8;
+		border-radius:100%;
+		background-color:#7accc8;
+		transform: scale(1, 1);
+		transition: all 0.4s ease;
+	}
+	.circle1:hover
+	{
+		height:200px;
+		width:200px;
+		border:2px solid #7accc8;
+		border-radius:100%;
+		background-color:#fff;
+		transform: scale(1.1, 1.1);
+		transition: all 0.6s ease;
+		box-shadow: 4px 4px 4px rgba(0, 0, 0, .1);
+	}
+	.inp_form
+	{
+		width:320px;
+		height:40px;
+		border:1.5px solid #abe0f1;
+		padding-left:10px;
+		border-radius:5px;
+		border-style:solid;
+	}
+	.inp_form1
+	{
+		width:650px;
+		height:40px;
+		border:1.5px solid #abe0f1;
+		padding-left:10px;
+		border-radius:5px;
+		border-style:solid;
+		color:#000;
+		opacity: 1;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;	
+	}
+	.c1::placeholder
+	{ 
+		color:#000;
+		opacity: 1;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;	
+	}
+	.c2::placeholder
+	{ 
+		color:#fff;
+		opacity: 1;
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;	
+		
+	}
+	.inp_btn
+	{
+		width:160px;
+		height:40px;
+		border:1.5px solid #abe0f1;
+		padding-left:10px;
+		border-radius:20px;
+		border-style:solid;
+		background-color:#abe0f1;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	.inp_btn:focus
+	{
+		width:160px;
+		height:40px;
+		border:1.5px solid #93d4e9;
+		padding-left:10px;
+		border-radius:20px;
+		border-style:solid;
+		background-color:#93d4e9;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		font-weight:bold;
+		letter-spacing:1px;
+		outline:none;
+		
+	}
+.inp_btn:hover
+	{
+		width:160px;
+		height:40px;
+		border:1.5px solid #93d4e9;
+		padding-left:10px;
+		border-radius:20px;
+		border-style:solid;
+		background-color:#93d4e9;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		font-weight:bold;
+		letter-spacing:1px;
+		outline:none;
+		
+	}
+	.inp-ftr
+	{
+		width:200px;
+		height:36px;
+		border-bottom:1.5px solid #fff;
+		background-color:transparent;
+		border-left:none;
+		border-top:none;
+		border-right:none;
+		color:#fff;
+		
+	}
+	.inp-ftr:hover
+	{
+		width:200px;
+		height:36px;
+		border-bottom:1.5px solid #fff;
+		background-color:transparent;
+		border-left:none;
+		border-top:none;
+		border-right:none;
+		color:#fff;
+	}
+	.inp-ftr:focus
+	{
+		width:200px;
+		height:36px;
+		border-bottom:1.5px solid #fff;
+		background-color:transparent;
+		border-left:none;
+		border-top:none;
+		border-right:none;
+		color:#fff;
+		outline:none
+	}
+	.inp-btn-ftr
+	{
+		width:150px;
+		height:36px;
+		background-color:#fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		border:none;
+		margin-left:0px;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	.inp-btn-ftr:hover
+	{
+		width:150px;
+		height:36px;
+		border:1.5px solid #fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		border:none;
+		margin-left:0px;
+		outline:none;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	.inp-btn-ftr:focus
+	{
+		width:150px;
+		height:36px;
+		background-color:#fff;
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;	
+		color:#000;
+		border:none;
+		margin-left:0px;
+		outline:none;
+		font-weight:bold;
+		letter-spacing:1px;
+	}
+	ul
+	{
+	list-style-type: none;
+	padding-left:0px;
+	}
+	.ftr_a
+	{
+	font-size:16px;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	}
+	.ftr_a:hover
+	{
+	font-size:16px;
+	color:#dbe2e4;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	text-decoration:none;
+	}
+	.ftr_a:focus
+	{
+	font-size:16px;
+	color:#dbe2e4;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+	text-decoration:none;
+	}
+	.line
+	{
+	background-image:url("img/donation/line.png");
+	background-repeat:no-repeat;
+	background-position:center 100px;
+	}
+	.social-icon
+	{
+	font-size:35px;
+	color:#fff;
+	transform: scale(1,1);
+	}
+	.social-icon:hover
+	{
+	font-size:35px;
+	color:#fff;
+	transform: scale(1.2, 1.2);
+	transition: all 0.2s ease;
+	}
+	.txt_13
+	{
+	font-size:13px;
+	color:#edf1f6; 
+	font-family:'Roboto', sans-serif;
+	text-align:center
+	}
+	.txt_13:hover
+	{
+	font-size:13px;
+	color:#edf1f6; 
+	font-family:'Roboto', sans-serif;
+	text-align:center;
+	}
+	.ir
+	{
+		width:100%;
+	}
+	.carousel-control 
+	{
+		width:5%;
+	}
+	.no-pd
+	{
+		padding:0px;
+	}
+	
+	
+	
+	.txt_36-xs
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:25px;
+		color:#000;
+		text-align:center;
+		font-weight:bold;
+	}
+	.txt_18-xs
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:14px;
+		color:#514e4e;
+		text-align:center;
+		line-height:25px;
+	}
+	.circle-xs
+	{
+		height:150px;
+		width:150px;
+		border:2px solid #e1e1e1;
+		border-radius:100%;
+		background-color:#e1e1e1;
+		transform: scale(1, 1);
+		transition: all 0.4s ease;
+	}
+	.circle-xs:hover
+	{
+		height:150px;
+		width:150px;
+		border:2px solid #e1e1e1;
+		border-radius:100%;
+		background-color:transparent;
+		transform: scale(1.1, 1.1);
+		transition: all 0.6s ease;
+		box-shadow: 4px 4px 4px rgba(0, 0, 0, .1);
+	}
+	.txt_22-xs
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:15px;
+		color:#000;
+		text-align:center;
+	}
+	.inp_form-xs
+	{
+		width:250px;
+		height:40px;
+		border:1.5px solid #abe0f1;
+		padding-left:10px;
+		border-radius:5px;
+		border-style:solid;
+	}
+	.shadow_box-680-xs
+	{
+		box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+		height:550px;
+		border-radius:10px;
+	}
+	.circle1-xs
+	{
+		height:150px;
+		width:150px;
+		border:2px solid #7accc8;
+		border-radius:100%;
+		background-color:#7accc8;
+		transform: scale(1, 1);
+		transition: all 0.4s ease;
+	}
+	.circle1-xs:hover
+	{
+		height:150px;
+		width:150px;
+		border:2px solid #7accc8;
+		border-radius:100%;
+		background-color:#fff;
+		transform: scale(1.1, 1.1);
+		transition: all 0.6s ease;
+		box-shadow: 4px 4px 4px rgba(0, 0, 0, .1);
+	}
+	.txt_16
+	{
+		font-family: 'Roboto', sans-serif;
+		font-size:16px;
+		color:#000;
+		text-align:center;
+	}
+	.bg2-xs
+	{
+		background-color:#000;
+		height:380px;
+		background-size:100%;
+		padding:0px;
+	}
+	a:hover
+	{
+		text-decoration:none;
+	}
+	a:focus
+	{
+		text-decoration:none;
+	}
+		.side-menu-wrapper { /* style menu wrapper */
+    overflow: hidden;
+    background: rgba(0,0,0,.95);
+    padding: 40px 0 0 40px;
+    position: fixed; /* Fixed position */
+    top: 0;
+    right: -290px; /* Sidebar initial position. "right" for right positioned menu */
+    height: 100%;
+    z-index: 2;
+    transition: 0.5s; /* CSS transition speed */
+    width: 250px;
+   font-family: 'Roboto', sans-serif;
+	font-size:16px;
+}
+.side-menu-wrapper > ul{ /* css ul list style */
+    list-style:none;
+    padding:0;
+    margin:0;
+    overflow-y: auto; /* enable scroll for menu items */
+    width:500px; /* this width will hide scroll bar */
+    height:95%;
+}
+.side-menu-wrapper > ul > li > a { /* links */
+    display: block;
+    border-bottom: 1px solid #131313;
+    padding: 6px 4px 6px 4px;
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.side-menu-wrapper > a.menu-close { /* close button */
+    padding: 8px 0 4px 23px;
+    color: #fff;
+    display: block;
+    margin: -30px 0 -10px -20px;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.side-menu-overlay { /* overlay */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.7);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.lin
+{
+	background-color:#000;
+	height:3px;
+	width:70px;
+}
+#go-top {
+      display: none;
+      font-size: 30px;
+      position: fixed;
+      bottom: 50px;
+      right: 50px;
+      border: 2px solid #333;
+      border-radius: 5px;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      cursor: pointer;
+    }
+	</style>
+  </head>
+  <body>
+    <div class="container-fluid bg hidden-xs">
+		<div class="container">
+			<span class="pull-right">
+			<a href="donation.html" class="black-nav">DONATION</a>
+			<a href="sell.html" class="black-nav">SELL</a>
+			<a href="https://www.fedex.com/apps/fedextrack/?action=track&cntry_code=in" class="black-nav">TRACK ORDER</a>
+			<a href="customer.html" class="black-nav">CUSTOMER SERVICE</a>
+			</span>
+		</div>
+	</div>
+	<div class="container-fluid hr_gray hidden-xs">
+		<div class="container mg35-top">
+			<div class="col-md-4 no-mg"><i class="fas fa-search search_icon"></i>
+				<input type="text" placeholder="Search product" class="inp c1">
+			</div>
+			<div class="col-md-4 no-mg">
+				<a href="index.html"><img src="img/logo.png" class="center-block"></a>
+			</div>
+			<div class="col-md-4 no-mg">
+				<span class="pull-right">
+				<a href="sign in.html"><i class="fas fa-user search_icon pull mg50-r"></i></a>
+				<a href="payment.html"><i class="fas fa-shopping-bag search_icon"></i></a>
+				</span>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid shadow no-mg hidden-xs">
+		<div class="container">
+					<nav class="navbar">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar navbar-inverse"></span>
+					<span class="icon-bar navbar-inverse"></span>
+					<span class="icon-bar navbar-inverse"></span> 
+				  </button>
+				 
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">							
+					<li><a href="man.html">MEN</a></li>
+					<li><a href="woman.html">WOMEN</a></li>
+					<li><a href="accessories.html">ACCESSORIES</a></li> 
+					<li><a href="designer.html">DESIGNER</a></li> 
+					<li><a href="design.html">DESIGN YOURSELF</a></li> 
+					<li><a href="blog.html">BLOG</a></li> 
+				  </ul>
+				</div>
+				</nav>
+			</div>
+	</div>
+		<!--------------------------------------mobile--------------------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm" style="margin-top:0px; box-shadow: 1px 2px 4px rgba(0, 0, 0, .3); height:40px">
+		<div class="col-xs-2" style="margin-top:7px;">
+		<a href="#" class="slide-menu-open"><i class="fas fa-bars" style="color:#000; font-size:20px; margin-top:2px;"></i></a>
+
+		<div class="side-menu-overlay" style="width: 0px; opacity: 0;"></div>
+		<div class="side-menu-wrapper">
+		<a href="#" class="menu-close">&times;</a>
+		<ul>
+			<li><a href="man.html" >MEN</a></li>
+			<li><a href="woman.html">WOMEN</a></li>
+			<li><a href="accessories.html" >ACCESSORIES</a></li> 
+			<li><a href="designer.html">DESIGNER</a></li> 
+			<li><a href="design.html" >DESIGN YOURSELF</a></li> 
+			<li><a href="blog.html">BLOG</a></li> 
+			<li><a href="design.html" >DONATION</a></li> 
+			<li><a href="blog.html">SELL</a></li> 
+			<li><a href="customer.html">CUSTOMER SERVICE</a></li> 
+		</ul>
+	</div>
+	<script>
+		var slidebar_width  = 290; //slidebar width + padding size
+		var slide_bar       = $(".side-menu-wrapper"); //slidebar
+		var slide_open_btn  = $(".slide-menu-open"); //slidebar close btn
+		var slide_close_btn = $(".menu-close"); //slidebar close btn
+		var overlay         = $(".side-menu-overlay"); //slidebar close btn
+
+		slide_open_btn.click(function(e){
+			e.preventDefault();
+			slide_bar.css( {"left": "0px"}); //change to "right" for right positioned menu
+			overlay.css({"opacity":".2", "width":"100%"});
+		});
+		slide_close_btn.click(function(e){
+			e.preventDefault();
+			slide_bar.css({"left": "-"+ slidebar_width + "px"}); //change to "right" for right positioned menu
+			overlay.css({"opacity":"0", "width":"0"});  
+		});
+	</script>
+	</div>
+	<div class="col-xs-6" style="margin-top:7px;">
+		<a href="index.html"><img src="img/logo.png" class="img-responsive" style="width:80%; margin-top:2px;"></a>
+	</div>
+	<div class="col-xs-4" style="margin-top:7px;">
+	
+		<a href="sign in.html" ><i class="fas fa-user search_icon pull-left" style="margin-top:3px; margin-left:3px;"></i></a>
+		<a href="payment.html"><i class="fas fa-shopping-bag search_icon pull-right" style="margin-top:3px;"></i></a>
+	</div>
+	</div>
+	<!---------------------------------------desktop--------------------------------------->
+	<div class="container-fluid no-pd">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators hidden-xs">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <a href="#"><img src="img/donation/header.png" alt="..." class="ir"></a>
+				  <div class="carousel-caption">
+				  </div>
+				</div>
+				<div class="item">
+				  <a href="#"><img src="img/donation/header1.png" alt="..." class="ir"></a>
+				  <div class="carousel-caption">
+				  </div>
+				</div>
+				<div class="item">
+				  <a href="#"><img src="img/donation/header2.png" alt="..." class="ir"></a>
+				  <div class="carousel-caption">
+				  </div>
+				</div>
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+	</div>
+	<!---------------------------desktop----------------------------->
+	<div class="container-fluid bg hidden-xs">
+		<div class="container"><h5 class="txt_white_14 no-mg pad-t-5">NO SHIPPING CHARGE ON DONATION</h5></div>
+	</div>
+	<!---------------------------mobile----------------------------->
+	<div class="container-fluid bg hidden-lg hidden-md hidden-sm no-pd">
+		<div class="container"><h5 class="txt_white_14 no-mg pad-t-5">NO SHIPPING CHARGE ON DONATION</h5></div>
+	</div>
+	
+	<!---------------------------desktop----------------------------->
+	<div class="container-fluid hidden-xs">
+		<div class="container item" data-aos="fade-up">
+			<h1 class="txt_36 mg80-top">CATEGORIES</h1>
+			<hr class="lin">
+			<p class="txt_18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br>
+			industry's standard dummy text</p>
+			<div class="row mg80-top">
+			<div class="col-md-4">
+				<div class="circle center-block">
+					<a href="#"><img src="img/donation/stationary.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22">STATIONARY  KIT</h3></a>	
+			</div>
+			<div class="col-md-4">
+				<div class="circle center-block">
+					<a href="#"><img src="img/donation/sanitary.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22">SANITARY NAPKINS</h3></a>
+			</div>
+			<div class="col-md-4">
+				<div class="circle center-block">
+					<a href="#"><img src="img/donation/sport.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22">SPORTS KIT</h3></a>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+	<!---------------------------mobile----------------------------->
+		<div class="container-fluid hidden-lg hidden-md hidden-sm no-pd">
+		<div class="container item" data-aos="fade-up">
+			<h1 class="txt_36-xs mg50-top">CATEGORIES</h1>
+			<hr class="lin">
+			<p class="txt_18-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="row mg50-top">
+			<div class="col-md-4">
+				<div class="circle-xs center-block">
+					<a href="#"><img src="img/donation/stationary1.png" class="center-block mg35-top img-responsive"></a>
+				</div>
+				<a href="#"><h3 class="txt_22-xs">STATIONARY  KIT</h3></a>	
+			</div>
+			<div class="col-md-4">
+				<div class="circle-xs center-block">
+					<a href="#"><img src="img/donation/sanitary1.png" class="center-block mg35-top img-responsive" ></a>
+				</div>
+				<a href="#"><h3 class="txt_22-xs">SANITARY NAPKINS</h3></a>
+			</div>
+			<div class="col-md-4">
+				<div class="circle-xs center-block">
+					<a href="#"><img src="img/donation/sport1.png" class="center-block mg35-top img-responsive"></a>
+				</div>
+				<a href="#"><h3 class="txt_22-xs">SPORTS KIT</h3></a>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+	
+	<!---------------------------desktop----------------------------->
+	<div class="container-fluid hidden-xs">
+		<div class="container shadow_box-680 mg80-top item" data-aos="fade-left">
+			<h3 class="txt_36 mg80-top">DONATION</h3>
+			<h4 class="txt_22-pink">HELP FOR THOSE WHO CAN NOT AFFORT</h4>
+			<form style="margin:auto; display:block; width:650px; margin-top:60px;">
+				<input type="text" placeholder="Your Name" required="required" class="inp_form mg10-right c1 pull-left">
+				<input type="text" placeholder="Email Address" required="required" class="inp_form c1 pull-left">
+				<select class="inp_form1 mg15-top c1">
+					<option>STATIONARY</option>
+					<option>SANITARY NAPKINS</option>
+					<option>SPORTS KIT</option>
+				</select>
+				<select class="inp_form1 mg15-top c1">
+					<option>Quantity</option>
+					<option>50</option>
+					<option>100</option>
+					<option>200</option>
+					<option>500</option>
+					<option>1000</option>
+					<option>1200</option>
+					<option>1500</option>
+					<option>2000</option>
+					<option>2500</option>
+					<option>5000</option>
+				</select>
+				<p class="txt_14 mg15-top">* Per Stationary-Kit &#8377; 10.00 &nbsp; &nbsp; &nbsp;* Per Sanitary &#8377; 40.00 * &nbsp; &nbsp; &nbsp; Per Sport-Kit &#8377; 800.00 </p>
+				<div class="mg35-top">
+				<input type="checkbox" required="required" class="pull-left">
+				<p class="txt_14 pull-left"> Contribute Anonymously (Do not disclose my identity)</p>
+				<h4 style="color:#000; font-weight:bold; font-size:18px; font-family:'Roboto', sans-serif; margin-left:400px;" >SUB TOTAL <span style="color:#1993fa; font-size:22px; margin-left:50px; ">&#8377; 2500.00</span></h4>
+				
+				</div>
+				
+				<input type="button" value="DONATE NOW" class="center-block inp_btn mg35-top">
+			</form>
+		</div>
+	</div>
+	<!---------------------------mobile----------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm">
+		<div class="container shadow_box-680-xs mg50-top item" data-aos="fade-left">
+			<h3 class="txt_36-xs mg35-top">DONATION</h3>
+			<h4 class="txt_22-xs" style="color:#30b4c3;">HELP FOR THOSE WHO CAN<br>NOT AFFORT</h4>
+			<form class="mg35-top">
+				<input type="text" placeholder="Your Name" required="required" class="inp_form-xs c1 center-block">
+				<input type="text" placeholder="Email Address" required="required" class="inp_form-xs mg15-top c1 center-block">
+				<select class="inp_form-xs mg15-top c1 center-block">
+					<option>STATIONARY</option>
+					<option>SANITARY NAPKINS</option>
+					<option>SPORTS KIT</option>
+				</select>
+				<select class="inp_form-xs mg15-top c1 center-block">
+					<option>Quantity</option>
+					<option>50</option>
+					<option>100</option>
+					<option>200</option>
+					<option>500</option>
+					<option>1000</option>
+					<option>1200</option>
+					<option>1500</option>
+					<option>2000</option>
+					<option>2500</option>
+					<option>5000</option>
+				</select>
+
+				<div class="mg15-top">
+				<input type="checkbox" required="required" class="pull-left" style="margin-left:15px;">
+				<p class="txt_14 text-center">Contribute Anonymously (Do not disclose my identity)</p>
+				
+				<h4 style="color:#000; font-weight:bold; font-size:18px; font-family:'Roboto', sans-serif; text-align:center;" >SUB TOTAL <span style="color:#1993fa; font-size:22px; margin-top:15px;">&#8377; 2500.00</span></h4>
+				</div>
+				
+				<input type="button" value="DONATE NOW" class="center-block inp_btn mg35-top">
+			</form>
+		</div>
+	</div>
+	<!--------------------------------desktop----------------------------------->
+	<div class="container-fluid hidden-xs">
+		<div class="container item" data-aos="fade-down-right">
+			<h3 class="txt_36 mg120-top">CONTRIBUTOR'S</h3>
+			<hr class="lin">
+			<img src="img/donation/contributor.png" class="center-block mg35-top">
+			<h4 class="txt_22 mg15-top" style="color:#b5393c; font-style:italic; font-weight:bold;">Khushi khanna</h4>
+			<p class="txt_18 mg35-top" style="font-size:20px; font-style:italic;">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br>
+			industry's standard dummy text”</p>
+			
+		</div>
+	</div>
+	<!---------------------------mobile----------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm no-pd">
+		<div class="container item" data-aos="fade-down-right">
+			<h3 class="txt_36-xs mg80-top">CONTRIBUTOR'S</h3>
+			<hr class="lin">
+			<img src="img/donation/contributor.png" class="center-block mg35-top">
+			<h4 class="txt_22-xs mg15-top" style="color:#b5393c; font-style:italic; font-weight:bold;">Khushi khanna</h4>
+			<p class="txt_18-xs mg15-top" style=" font-style:italic;">“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+			industry's standard dummy text”</p>
+			
+		</div>
+	</div>
+	<!---------------------------desktop----------------------------->
+	<div class="container-fluid hidden-xs">
+		<div class="container item" data-aos="fade-down-left">
+			<h1 class="txt_36 mg120-top">DONATION PROCESS</h1>
+			<hr class="lin">
+			<p class="txt_18">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the<br>
+			industry's standard dummy text</p>
+			<div class="row mg80-top line">
+			<div class="col-md-4">
+				<div class="circle1 center-block">
+					<a href="#"><img src="img/donation/donation-box.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22">DONATION</h3></a>	
+			</div>
+			<div class="col-md-4">
+				<div class="circle1 center-block">
+					<a href="#"><img src="img/donation/free-delivery.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22">FREE DELIVERY</h3></a>
+			</div>
+			<div class="col-md-4">
+				<div class="circle1 center-block">
+					<a href="#"><img src="img/donation/ngo.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22">NGO’S</h3></a>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+	<!---------------------------mobile----------------------------->
+		<div class="container-fluid hidden-lg hidden-md hidden-sm no-pd">
+		<div class="container item" data-aos="fade-down-left">
+			<h1 class="txt_36-xs mg35-top">DONATION PROCESS</h1>
+			<hr class="lin">
+			<p class="txt_18-xs">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+			<div class="row mg35-top">
+			<div class="col-md-4">
+				<div class="circle1-xs center-block">
+					<a href="#"><img src="img/donation/donation-box1.png" class="center-block mg35-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22-xs">DONATION</h3></a>	
+			</div>
+			<div class="col-md-4">
+				<div class="circle1-xs center-block">
+					<a href="#"><img src="img/donation/free-delivery1.png" class="center-block mg50-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22-xs">FREE DELIVERY</h3></a>
+			</div>
+			<div class="col-md-4">
+				<div class="circle1-xs center-block">
+					<a href="#"><img src="img/donation/ngo1.png" class="center-block mg35-top"></a>
+				</div>
+				<a href="#"><h3 class="txt_22-xs">NGO’S</h3></a>
+			</div>
+			
+			</div>
+		</div>
+	</div>
+	
+	<!---------------------------desktop----------------------------->
+	<div class="container-fluid mg80-top hidden-xs">
+		<div class="container item" data-aos="fade-left">
+		<p class="txt_18" style="text-align:justify;">Shopofreak’s vision is to create India’s most impactful digital commerce ecosystem that creates life-changing experiences for buyers and sellers. In May 2018, Surbhi Mittal, started Shopofreak.com - India’s largest online marketplace, with the widest assortment of 30 million+ products across 800+ diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 3,00,000 sellers, Shopofreak is the shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Shopofreak has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others.
+		<br><br>
+		In its endeavour to make online business easy, Shopofreak has pioneered with a host of industry-first initiatives to help its sellers grow and prosper. Shopofreak provides expert assistance through its Advisors who help sellers manage their online business. Sellers also get free training & support and all the information they need for carrying out their business. Shopofreak has also partnered with leading banks and runs a programme called Capital Assist that helps sellers fund their growth by getting unsecured loans at low interest for their working capital requirements. Shopofreak also provides sellers with free inventory storage and faster, hassle free deliveries through a service called Shopofreak Plus. Shopofreak also helps sellers get in touch with professionals and experts for their various requirements such as Onboarding, Cataloguing, Photography, Business Consulting, etc.
+		</p>
+		</div>
+	</div>
+	
+	<!---------------------------mobile----------------------------->
+	<div class="container-fluid mg80-top hidden-lg hidden-md hidden-sm no-pd">
+		<div class="container item" data-aos="fade-left">
+		<p class="txt_16" style="text-align:justify; color:#514e4e;">Shopofreak’s vision is to create India’s most impactful digital commerce ecosystem that creates life-changing experiences for buyers and sellers. In May 2018, Surbhi Mittal, started Shopofreak.com - India’s largest online marketplace, with the widest assortment of 30 million+ products across 800+ diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 3,00,000 sellers, Shopofreak is the shopping destination for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, Shopofreak has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others.
+		</p>
+		</div>
+	</div>
+	
+	<!---------------------------desktop----------------------------->
+
+	
+	
+	<div class="container-fluid bg2 mg80-top hidden-xs">
+		<div class="container">
+			<div class="row mg80-top hidden-xs hidden-sm hidden-md">
+				<div class="col-md-8"><a href="index.html"><img src="img/footerlogo.png"></a></div>
+				<div class="col-md-4">
+					<input type="text" placeholder="EMAIL" class="inp-ftr c2" style="color:#fff;">
+					<input type="button" value="SUBSCRIBE" class="inp-btn-ftr">
+				</div>
+			</div>
+			<div class="row mg80-top hidden-xs hidden-lg ">
+				<div class="col-md-7"><a href="index.html"><img src="img/footerlogo.png"></a></div>
+				<div class="col-md-5">
+					<input type="text" placeholder="EMAIL" class="inp-ftr c2" style="color:#fff;">
+					<input type="button" value="SUBSCRIBE" class="inp-btn-ftr">
+				</div>
+			</div>
+		</div>
+		<div class="container mg80-top">
+			<div class="row">
+				<div class="col-md-3">
+					<ul>
+						<a href="#" class="ftr_a" style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>INFORMATION</li></a>
+						<a href="#" class="ftr_a"><li class="mg15-top">About Us</li></a>
+						<a href="#" class="ftr_a"><li>Delivery Information</li></a>
+						<a href="#" class="ftr_a"><li>Privacy Policy</li></a>
+						<a href="#" class="ftr_a"><li>Terms & Conditions</li></a>
+						<a href="#" class="ftr_a"><li>Contact Us</li></a>
+						<a href="#" class="ftr_a"><li>Returns</li></a>
+						
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<a href="#" class="ftr_a " style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>EXTRAS</li></a>
+						<a href="#" class="ftr_a "><li class="mg15-top">Brand</li></a>
+						<a href="#" class="ftr_a"><li>Gift Vouchers</li></a>
+						<a href="#" class="ftr_a"><li>Specials</li></a>
+						<a href="#" class="ftr_a"><li>My Account</li></a>
+						<a href="#" class="ftr_a"><li>Order History</li></a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<a href="#" class="ftr_a " style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>CUSTOMER SERVICE</li></a>
+						<a href="#" class="ftr_a "><li class="mg15-top">Contact Us</li></a>
+						<a href="#" class="ftr_a "><li>Return</li></a>
+						<a href="#" class="ftr_a "><li>Site Map</li></a>
+						<a href="#" class="ftr_a "><li>Wish List</li></a>
+						<a href="#" class="ftr_a "><li>Newsletter</li></a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<ul class="pull-right">
+						<a href="#" class="ftr_a " style="font-size:18px; color:#fff; font-family: 'Roboto', sans-serif; "><li>SHOPOFREAK BUSINESS</li></a>
+						<a href="#" class="ftr_a "><li class="mg15-top">Online Shopping</li></a>
+						<a href="#" class="ftr_a "><li>Sell on Shopofreak</li></a>
+						<a href="#" class="ftr_a "><li>Advertise</li></a>
+						<a href="#" class="ftr_a "><li>Media Enquiries</li></a>
+						<a href="#" class="ftr_a "><li>Be an Affiliate</li></a>
+						<a href="#" class="ftr_a "><li>Site Map</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="row mg80-top">
+				<div class="col-md-6">
+					<p class="txt_14" style="color:#fff;">FIND US ON</p>
+					<a href="#"><i class="fab fa-facebook social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-twitter-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-pinterest-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-snapchat-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-tumblr-square social-icon "></i></i></a>
+				
+				</div>
+				<div class="col-md-6">
+					<span class="pull-right" style="margin-right:100px;">
+					<p class="txt_14" style="color:#fff;">APP</p>
+					<a href="#"><i class="fab fa-apple social-icon" style="margin-right:20px;"></i></a>
+					<a href="#"><i class="fab fa-android social-icon"></i></a>
+					</span>
+				</div>
+				<h3 class="text-center mg35-top txt_13">&copy; 2018, Shopofreak.com Inc. All Right Reserved</h3>
+			<h3 class="txt_13" style="margin-top:10px;"><a href="#" class="txt_13">Privacy & Security Policy</a> /
+			<a href="#" class="txt_13">Term & Conditions</a> /
+			<a href="#" class="txt_13">Copyright Notice</a></h3>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-------------------------------------MOBILE----------------------------------->
+	<!-------------------------------------MOBILE----------------------------------->
+	<div class="container-fluid hidden-lg hidden-md hidden-sm bg2-xs mg35-top">
+		<a href="index.html"><img src="img/footerlogo.png" class="img-responsive center-block mg15-top"></a>
+		<div class="mg35-top">
+			<p class="txt_14 text-center" style="color:#fff;">DOWNLOAD OUR APP</p>
+			<p class="text-center">
+			<a href="#"><i class="fab fa-apple social-icon" style="margin-right:20px;"></i></a>
+			<a href="#"><i class="fab fa-android social-icon"></i></a>
+			</p>
+		</div>
+		<div class="mg35-top">
+			<p class="txt_14 text-center" style="color:#fff;">FIND US ON</p>
+			<p class="text-center">
+			<a href="#"><i class="fab fa-facebook social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-twitter-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-pinterest-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-snapchat-square social-icon mg10-right"></i></a>
+					<a href="#"><i class="fab fa-tumblr-square social-icon "></i></a>
+			</p>
+		</div>		
+		<h3 class="text-center txt_13" style="color:#fff; line-height:18px;">&copy; 2018, Shopofreak.com Inc. All Right Reserved<br>Design & developed by Surbhi Mittal</h3>
+		<h3 class="txt_13 text-center" style="color:#fff; line-height:23px;">
+			<a href="#" class="txt_13 mg10-right" style="color:#fff;">Privacy & Security Policy</a>
+			<a href="#" class="txt_13 mg10-right" style="color:#fff;">Term & Conditions</a><br>
+			<a href="#" class="txt_13" style="color:#fff;">Copyright Notice</a>
+		</h3>
+	</div>
+
+	<!-- -- go to top -- -->
+	<div id="go-top" class="iconfont icon-cc-top hidden-xs"></div>
+	
+	<script>
+  $(function () {
+    $('#go-top').goTop({
+      scrollTop: 100,
+      scrollSpeed: 1000,
+      fadeInSpeed: 1000,
+      fadeOutSpeed: 500
+    })
+  })
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+ <script>
+  AOS.init();
+</script>
+	
+
+	
+	
+	
+  </body>
+</html>
